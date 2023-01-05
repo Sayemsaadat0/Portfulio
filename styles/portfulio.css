@@ -1,39 +1,37 @@
 *{
     font-family: 'Open Sans', sans-serif;
 }
+/* this is header style section */
 header{
-    background: #FFF8F3;
-    background-image: url(../images/header_bg.png) , url(../images/developer.png);
+    background: #bfaea3;
+    background-image: url(/images/header_bg.png) , url(/images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left ;
+    margin: 0;
 }
 /*nav style*/
 nav{
     display: flex;
     justify-content: space-between; 
-    margin: 50px 200px;
+    margin: 0px 200px;
 }
+.nav-titlle{
+    font-weight: 800;
+    font-size: 45px;
+        margin: 0;
+}    
 .first{
     color: #FD6E0A;
 }    
-
-
-h2.nav-title{
-    font-weight: 800;
-font-size: 45px;
-    margin: 0;
-}
-
 nav ul {
     display: flex;
     align-items: center;
-    
 }
 nav li{
     list-style: none;
     margin-left: 50px;
 }
-.first-btn{
+.hire-me-btn{
     color: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
@@ -42,6 +40,9 @@ nav li{
     border: none;
     border-radius: 5px;
     height: 64px;  
+}
+.hire-me-btn:hover{
+    background-color: aqua;
 }
 
 /*banner style*/
@@ -55,19 +56,23 @@ nav li{
     color: #474747;
     font-weight: 600;
     font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .bannerh1{
     color: #181818;
     font-weight: 700;
     font-size: 85px;
+    margin-top: 10px;
    margin-bottom: 10px;
 }
-.bannerp{
+.banner-description{
     color: #757575;
     font-weight: 400;
-font-size: 18px;
+    font-size: 18px;
 }
-.second-btn{
+/* button */
+.download-cv-btn{
     color: #FFFFFF;
     font-weight: 700;
 font-size: 20px;
@@ -78,10 +83,10 @@ border-radius: 5px;
     width: 200px;
 height: 64px;
 }
-.second-btn:hover{
+.download-cv-btn:hover{
     background-color: rgb(53, 53, 35);
 }
-.third-btn{
+.contact-btn{
     color: #FD6E0A;
     font-weight: 700;
     font-size: 20px;
@@ -89,31 +94,162 @@ height: 64px;
     height: 27px;
     text-align: center;
     border: 1px solid #FD6E0A;
-border-radius: 5px;
-width: 160px;
-height: 64px;
-box-sizing: border-box;
-margin-left: 30px;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    box-sizing: border-box;
+    margin-left: 30px; 
 }
-/*about*/
+.contact-btn:hover{
+    background-color: cadetblue;
+}
+
+/*section about*/
 main{
     max-width: 1140px;
-    background: #FFF8F3;
-border-radius: 10px;
-width: 1140px;
-height: 550px;
-margin: 0 auto;
-padding: 130px 150px;
+    background: #fafefd;
+    border-radius: 10px;
+    width: 1140px;
+    height: 550px;
+    margin: 0 auto; 
+    padding: 120px 150px;
+    
 }
+
 .about{
+    margin-top: 130px;
+    background: rgb(224, 220, 166);
+    border-radius: 10px;
+    padding: 100px 110px;
+   /* width: 827px;
+ height: 288px; */
 }
 .about-me{
     text-align: center;
     margin-bottom: 30px;
+    justify-content: center;
 }
-.lorem{
-    color: #757575;
+.about-me-description{
+    text-align: center;
+    color: #706f6f;
     font-size: 18px;
+    justify-content: center;
 }
-/*table*/
+/* information */
+.info{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 10px;
+}
+.name-info{
+    color: #757575;
+    text-align: center;
+}
+.name-data{
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+}
+.email-info{
+    color: #757575;
+    text-align: center;
+}
+.email-data{
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+}
+.Birth-info{
+    color: #757575;
+    text-align: center;
+}
+.Birth-data{
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+}
+.location-info{
+    color: #757575;
+    text-align: center;
+}
+.location-data{
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+}
 
+/* section what i do */
+section.what-do-i-do-section{
+    text-align: center;
+    margin-top: 150px;
+}
+.what-i-do-div{
+    justify-content: center;
+}
+.what-i-do{
+    color: #181818;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30;
+
+}
+.what-i-do-description{
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+/* skills section */
+.skills-section{
+    display: flex;}
+    
+    
+.skill-div{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.javascript-div{
+width: 267px;
+height: 377px;
+ width: 174px;
+height: 27px;
+font-weight: 700;
+font-size: 20px;
+color: #181818;
+text-align: left;
+
+} 
+.javascript-title{
+    width: 174px;
+height: 27px;
+font-weight: 700;
+font-size: 20px;
+}
+.javascript-description{
+    width: 201px;
+height: 196px;
+font-weight: 400;
+font-size: 16px;
+}
+
+
+
+.try{
+    background: yellow;
+    box-shadow: 0 5px 5px 5px hsla(0, 8%, 64%, 0.67);
+    padding: 0 25px 10px 0;
+    width: 267px;
+height: 377px;
+text-align: left;
+}
+.conteiner{
+    display: flex;
+    justify-content: space-around;
+}
