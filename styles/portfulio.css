@@ -268,3 +268,47 @@ font-size: 16px;
 width: 201px;
 height: 196px;
 }
+/* resume section */
+.resume-section{
+    justify-content: center;
+}
+.resume-section-title{
+    width: 455px;
+ height: 48px;
+font-weight: 700;
+font-size: 35px;
+text-align: center;
+}
+
+.my-education-title{
+    width: 203px;
+height: 41px;
+left: 230px;
+top: 2533px;
+color: #474747;
+
+}
+.subject-name{
+    width: 405px;
+height: 34px;
+font-weight: 700;
+font-size: 25px;
+color: #474747;
+}
+
+.university-name{
+    width: 309px;
+height: 27px;
+font-weight: 600;
+font-size: 20px;
+color: #757575;
+}
+
+.sub-description
+{
+    width: 511px;
+height: 84px;
+font-weight: 400;
+font-size: 16px;
+color: #757575;
+}
